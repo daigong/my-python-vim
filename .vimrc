@@ -34,6 +34,9 @@ vnoremap <C-L>c "+y
 "CTRL+L,x 剪切
 vnoremap <C-L> "+x
 
+"jj --> ESC
+imap jj <ESC>
+
 "插件配置
 
 "NERDTree配置
@@ -56,9 +59,10 @@ let g:pymode_run_key = '<C-L>r'
 "python 自动排版
 "需要给python-format-PythonTidy-1.23.py 给可执行权限
 au FileType python set formatprg=~/.vim/plugin/python-format-PythonTidy-1.23.py
-noremap <C-L>f gggqG
-inoremap <C-L>f <ESC>gggqG
+noremap <C-L>f :update<CR>gggqG
+inoremap <C-L>f <ESC>:update<CR>gggqG
 
 "代码检查忽视的错误
 "E123,E125 由于排版插件问题忽略
-let g:pymode_lint_ignore = "E123,E125"
+"W391 文件最后有空行警告
+let g:pymode_lint_ignore = "E123,E125,W391"
