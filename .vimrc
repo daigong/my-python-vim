@@ -58,3 +58,7 @@ let g:pymode_run_key = '<C-L>r'
 au FileType python set formatprg=~/.vim/plugin/python-format-PythonTidy-1.23.py
 noremap <C-L>f gggqG
 inoremap <C-L>f <ESC>gggqG
+
+"代码检查忽视的错误
+"E123,E125 由于排版插件问题忽略
+let g:pymode_lint_ignore = "E123,E125"
