@@ -26,16 +26,24 @@ map <silent> <C-L>q <ESC>:quit<CR>
 imap <silent> <C-L>q <ESC>:quit<CR>
 
 "CTRL+L,v 粘贴
-inoremap <C-L>v <ESC>"+gPi
+inoremap <C-L>v <ESC>"+gP
 
 "CTRL+L,c 复制
 vnoremap <C-L>c "+y
 
 "CTRL+L,x 剪切
-vnoremap <C-L> "+x
+vnoremap <C-L>x "+x
 
 "jj --> ESC
 imap jj <ESC>
+
+"Tab 快捷键
+"CTRL+L,t 新建tab
+map <silent> <C-L>t <ESC>:tabe<CR>
+"CTRL+L,j 上一个tab
+map <silent> <C-L>j <ESC>:tabp<CR>
+"Ctrl+L,k 下一个tab
+map <silent> <C-L>k <ESC>:tabn<CR>
 
 "插件配置
 
@@ -65,4 +73,4 @@ inoremap <C-L>f <ESC>:update<CR>gggqG
 "代码检查忽视的错误
 "E123,E125 由于排版插件问题忽略
 "W391 文件最后有空行警告
-let g:pymode_lint_ignore = "E123,E125,W391"
+let g:pymode_lint_ignore = "E123,E125,W391,E128"
