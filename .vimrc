@@ -73,4 +73,5 @@ inoremap <C-L>f <ESC>:update<CR>gggqG
 "代码检查忽视的错误
 "E123,E125 由于排版插件问题忽略
 "W391 文件最后有空行警告
-let g:pymode_lint_ignore = "E123,E125,W391,E128"
+"E501 单行文件字符个数限制
+let g:pymode_lint_ignore = "E123,E125,W391,E128,E501"
