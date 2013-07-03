@@ -63,6 +63,8 @@ let g:nerdtree_tabs_open_on_gui_startup=1
 "python-mode 插件配置
 "运行python程序快捷键
 let g:pymode_run_key = '<C-L>r'
+"支持virtualenv
+let g:pymode_virtualenv = 1
 
 "python 自动排版
 "需要给python-format-PythonTidy-1.23.py 给可执行权限
