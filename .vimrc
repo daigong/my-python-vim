@@ -53,6 +53,8 @@ map <F7> :NERDTreeToggle<CR>
 nmap <F7> :NERDTreeToggle<CR>
 "改变tree目录的同时改变工程的目录
 let NERDTreeChDirMode=1
+"忽略文件
+let NERDTreeIgnore=['\.pyc$']
 
 "vim-nerdtree-tabs配置
 "
