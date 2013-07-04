@@ -62,6 +62,10 @@ let NERDTreeIgnore=['\.pyc$']
 let g:nerdtree_tabs_open_on_console_startup=1
 let g:nerdtree_tabs_open_on_gui_startup=1
 
+"CtrlP配置
+"搜索路径
+let g:ctrlp_working_path_mode=0
+
 "python-mode 插件配置
 "运行python程序快捷键
 let g:pymode_run_key = '<C-L>r'
