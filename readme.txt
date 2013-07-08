@@ -7,3 +7,10 @@
 2.给排版插件执行权限:
 
 	chmod +x ~/.vim/plugin/python-format-PythonTidy-1.23.py
+
+
+
+
+
+PS.
+1.debug: pip install ipdb

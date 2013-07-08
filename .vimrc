@@ -83,3 +83,24 @@ inoremap <C-L>f <ESC>:update<CR>gggqG
 "W391 文件最后有空行警告
 "E501 单行文件字符个数限制
 let g:pymode_lint_ignore = "E123,E125,W391,E128,E501"
+
+"taglist配置
+"F8 切换TtagList窗口
+nnoremap <silent> <F8> :TlistToggle<CR>
+
+"不同时显示多个文件的tag，只显示当前文件的
+let Tlist_Show_One_File = 1
+"如果 taglist 窗口是最后一个窗口，则退出 vim
+let Tlist_Exit_OnlyWindow = 1
+"在右侧窗口中显示 taglist 窗口
+let Tlist_Use_Right_Window = 1
+"启动vim后自动打开
+let Tlist_Auto_Open=1
+let Tlist_File_Fold_Auto_Close=1
+
+"可以设置taglist窗口的高度和宽度 
+"let Tlist_WinHeigh = ?
+"let Tlist_WinWidth = ?
+
+"设置taglist窗口横向显示
+"let Tlist_Use_Horiz_Window=1
