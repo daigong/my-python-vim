@@ -8,7 +8,8 @@
 
 	chmod +x ~/.vim/plugin/python-format-PythonTidy-1.23.py
 
-
+3 安装ctags
+sudo apt-get install exuberant-ctags
 
 
 
