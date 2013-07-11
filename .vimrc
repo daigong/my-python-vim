@@ -55,6 +55,8 @@ nmap <F7> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=1
 "忽略文件
 let NERDTreeIgnore=['\.pyc$']
+"宽度
+let g:NERDTreeWinSize=18
 
 "vim-nerdtree-tabs配置
 "
