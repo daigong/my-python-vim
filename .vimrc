@@ -106,3 +106,8 @@ let Tlist_File_Fold_Auto_Close=1
 
 "设置taglist窗口横向显示
 "let Tlist_Use_Horiz_Window=1
+
+"supertab 设置
+"tab 为 python补全
+let g:SuperTabDefaultCompletionType="<C-X><C-O>" 
+"let g:SuperTabDefaultCompletionType = "context"
