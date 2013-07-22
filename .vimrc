@@ -61,8 +61,8 @@ let g:NERDTreeWinSize=18
 "vim-nerdtree-tabs配置
 "
 "在gui 和 vim console 自动open NERDTreeToggle
-let g:nerdtree_tabs_open_on_console_startup=1
-let g:nerdtree_tabs_open_on_gui_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
+let g:nerdtree_tabs_open_on_gui_startup=0
 
 "CtrlP配置
 "搜索路径
@@ -97,7 +97,7 @@ let Tlist_Exit_OnlyWindow = 1
 "在右侧窗口中显示 taglist 窗口
 let Tlist_Use_Right_Window = 1
 "启动vim后自动打开
-let Tlist_Auto_Open=1
+let Tlist_Auto_Open=0
 let Tlist_File_Fold_Auto_Close=1
 
 "可以设置taglist窗口的高度和宽度 
