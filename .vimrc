@@ -14,11 +14,15 @@ set noswapfile
 "缺省不产生备份文件
 set nobackup
 
-""Tab -> 4空格配置
+"Tab -> 4空格配置
 set smarttab
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"取消折叠
+"set foldmethod=indent
+set nofoldenable
 
 "通用快捷键配置
 
